@@ -2,10 +2,10 @@ module HT
   class DB
     if defined? JRUBY_VERSION
       require 'ht/jruby/db'
-      self.prepend HT::JRuby::DB
+      extend HT::JRuby::DB
     else
       require 'ht/mri/db'
-      self.prepend HT::MRI::DB
+      extend HT::MRI::DB
     end
 
     # self.db is defined in the prepended class for jruby or MRI
