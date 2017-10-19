@@ -28,11 +28,7 @@ module HT
     end
 
     def [](htid)
-<<<<<<< HEAD
       seed(htid) if @htid_map[htid].empty?
-=======
-      seed(htid) unless !@htid_map[htid].empty
->>>>>>> b64ecca7a4d96da59282b4d41c12b58bce6b83e9
       @htid_map[htid]
     end
 
