@@ -10,8 +10,8 @@ module HT
       #
       # The db methods (db_machine, etc.) are coming from
 
-      def db
-        @db ||= Sequel.connect("jdbc:mysql://#{HT::DB.db_machine}/#{HT::DB.db_name}?user=#{HT::DB.db_user}&password=#{HT::DB.db_password}")
+      def self.db
+        Sequel.connect("jdbc:mysql://#{HT::DB.db_machine}/#{HT::DB.db_name}?user=#{HT::DB.db_user}&password=#{HT::DB.db_password}")
       end
 
     end
