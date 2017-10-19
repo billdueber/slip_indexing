@@ -21,7 +21,7 @@ module HT
       end
 
       def db_name
-        ENV['HT_DB']
+        ENV['HT_DB_NAME']
       end
 
       def db_user
