@@ -27,8 +27,8 @@
       <file leaf-file-name="print_holdings.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ht/print_holdings.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="570">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,7 +110,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="354" />
+    <option name="x" value="353" />
     <option name="y" value="106" />
     <option name="width" value="1357" />
     <option name="height" value="1023" />
@@ -208,7 +208,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508442134831</updated>
-      <workItem from="1508442136345" duration="5935000" />
+      <workItem from="1508442136345" duration="6182000" />
     </task>
     <task id="LOCAL-00001" summary="Change env variable HT_DB to HT_DB_NAME">
       <created>1508445106989</created>
@@ -280,14 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1508447008007</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Can't use prepared stmts with an array bound variable with JDBC">
+      <created>1508448192552</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1508448192552</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5935000" />
+    <option name="totallyTimeSpent" value="6182000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="354" y="106" width="1357" height="1023" extended-state="0" />
+    <frame x="353" y="106" width="1357" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -327,7 +334,8 @@
     <MESSAGE value="Actually prepare statement" />
     <MESSAGE value="Actually prepare statement *correctly*" />
     <MESSAGE value="Stupid stupid stupid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stupid stupid stupid" />
+    <MESSAGE value="Can't use prepared stmts with an array bound variable with JDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can't use prepared stmts with an array bound variable with JDBC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -392,8 +400,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ht/print_holdings.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="570">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
