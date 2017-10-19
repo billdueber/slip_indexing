@@ -4,7 +4,7 @@ module HT
 
   class PrintHoldings
 
-    PHDB_Query = HT::DB.instance[:holdings_htitem_htmember].select(:volume_id, :member_id).where(volume_id: :$vol_ids)
+    PHDB_Query = HT::DB.instance[:holdings_htitem_htmember].select(:volume_id, :member_id).where(volume_id: :$volume_ids)
 
     def initialize(passed_seeds = [])
       seeds = Array(passed_seeds)

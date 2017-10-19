@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0918796f-551d-483c-8fdb-8354375fb362" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/lib/ht/db.rb" afterPath="$PROJECT_DIR$/lib/ht/db.rb" />
-      <change beforePath="$PROJECT_DIR$/lib/ht/jruby/db.rb" afterPath="$PROJECT_DIR$/lib/ht/jruby/db.rb" />
+      <change beforePath="$PROJECT_DIR$/lib/ht/print_holdings.rb" afterPath="$PROJECT_DIR$/lib/ht/print_holdings.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="print_holdings.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="print_holdings.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ht/print_holdings.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="210">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -55,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/ht/db.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -97,10 +96,10 @@
         <option value="$PROJECT_DIR$/writers/local_solr_json_updater.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/ht/secrets.rb" />
-        <option value="$PROJECT_DIR$/lib/ht/print_holdings.rb" />
         <option value="$PROJECT_DIR$/bin/get_collection_map.rb" />
         <option value="$PROJECT_DIR$/lib/ht/jruby/db.rb" />
         <option value="$PROJECT_DIR$/lib/ht/db.rb" />
+        <option value="$PROJECT_DIR$/lib/ht/print_holdings.rb" />
       </list>
     </option>
   </component>
@@ -111,7 +110,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="359" />
+    <option name="x" value="358" />
     <option name="y" value="106" />
     <option name="width" value="1357" />
     <option name="height" value="1023" />
@@ -209,7 +208,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508442134831</updated>
-      <workItem from="1508442136345" duration="3480000" />
+      <workItem from="1508442136345" duration="3917000" />
     </task>
     <task id="LOCAL-00001" summary="Change env variable HT_DB to HT_DB_NAME">
       <created>1508445106989</created>
@@ -239,14 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1508445533164</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Argh. Need to use extend, not prepend.">
+      <created>1508445632879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1508445632879</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3480000" />
+    <option name="totallyTimeSpent" value="3917000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="359" y="106" width="1357" height="1023" extended-state="0" />
+    <frame x="358" y="106" width="1357" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -280,7 +286,8 @@
     <MESSAGE value="Turn HT::DB into a class" />
     <MESSAGE value="Fix singleton stuff" />
     <MESSAGE value="Make db a class method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make db a class method" />
+    <MESSAGE value="Argh. Need to use extend, not prepend." />
+    <option name="LAST_COMMIT_MESSAGE" value="Argh. Need to use extend, not prepend." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -335,18 +342,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ht/print_holdings.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ht/db.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ht/print_holdings.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
         </state>
       </provider>
