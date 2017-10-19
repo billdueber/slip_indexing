@@ -1,5 +1,5 @@
 module HT
-  module DB
+  class DB
     if defined? JRUBY_VERSION
       require 'ht/jruby/db'
       self.prepend HT::JRuby::DB
