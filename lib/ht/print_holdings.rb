@@ -12,18 +12,18 @@ module HT
     def initialize(passed_seeds = [])
       seeds     = Array(passed_seeds)
       @htid_map = self.empty_map
-      self.seed(seeds) unless seeds.empty?
+      seed(seeds) unless seeds.empty?
     end
 
     def empty_map
-      Hash.new({}) {|h, k| h[k] = []}
+      Hash.new {|h, k| h[k] = []}
     end
 
     def seed(htid_seeds)
       if @htid_map.size > 1000
         @htid_map = empty_map
       end
-      PHDB_Query.call(:select, volume_ids: Array(htid_seeds)).each do |r|
+      PHDB_Query.call(volume_ids: Array(htid_seeds)).each do |r|
         @htid_map[r[:volume_id]] << r[:member_id]
       end
     end
