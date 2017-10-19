@@ -27,8 +27,8 @@
       <file leaf-file-name="print_holdings.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ht/print_holdings.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="135">
+              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -208,7 +208,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508442134831</updated>
-      <workItem from="1508442136345" duration="4037000" />
+      <workItem from="1508442136345" duration="4472000" />
     </task>
     <task id="LOCAL-00001" summary="Change env variable HT_DB to HT_DB_NAME">
       <created>1508445106989</created>
@@ -252,11 +252,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508446072608</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Force htid map to have array values">
+      <created>1508446195135</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1508446195135</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4037000" />
+    <option name="totallyTimeSpent" value="4472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="358" y="106" width="1357" height="1023" extended-state="0" />
@@ -295,7 +302,8 @@
     <MESSAGE value="Make db a class method" />
     <MESSAGE value="Argh. Need to use extend, not prepend." />
     <MESSAGE value="Make prepared stmt. match the call" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make prepared stmt. match the call" />
+    <MESSAGE value="Force htid map to have array values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Force htid map to have array values" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -360,8 +368,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ht/print_holdings.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="135">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding />
         </state>
       </provider>

@@ -4,10 +4,13 @@ module HT
 
   class PrintHoldings
 
-    PHDB_Query = HT::DB.instance[:holdings_htitem_htmember].select(:volume_id, :member_id).where(volume_id: :$volume_ids)
+    PHDB_Query = HT::DB.instance[:holdings_htitem_htmember]
+                   .select(:volume_id, :member_id)
+                   .where(volume_id: :$volume_ids)
+                   .prepare
 
     def initialize(passed_seeds = [])
-      seeds = Array(passed_seeds)
+      seeds     = Array(passed_seeds)
       @htid_map = self.empty_map
       self.seed(seeds) unless seeds.empty?
     end
