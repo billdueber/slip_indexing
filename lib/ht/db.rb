@@ -13,7 +13,7 @@ module HT
     class << self
 
       def instance(passed_db = nil)
-        @db ||= self.new(passed_db)
+        @db ||= (passed_db || self.db)
       end
 
       def db_machine
