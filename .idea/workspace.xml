@@ -27,8 +27,8 @@
       <file leaf-file-name="print_holdings.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/ht/print_holdings.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="299">
+              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -208,7 +208,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508442134831</updated>
-      <workItem from="1508442136345" duration="3917000" />
+      <workItem from="1508442136345" duration="4037000" />
     </task>
     <task id="LOCAL-00001" summary="Change env variable HT_DB to HT_DB_NAME">
       <created>1508445106989</created>
@@ -245,11 +245,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508445632879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Make prepared stmt. match the call">
+      <created>1508446072608</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1508446072608</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3917000" />
+    <option name="totallyTimeSpent" value="4037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="358" y="106" width="1357" height="1023" extended-state="0" />
@@ -287,7 +294,8 @@
     <MESSAGE value="Fix singleton stuff" />
     <MESSAGE value="Make db a class method" />
     <MESSAGE value="Argh. Need to use extend, not prepend." />
-    <option name="LAST_COMMIT_MESSAGE" value="Argh. Need to use extend, not prepend." />
+    <MESSAGE value="Make prepared stmt. match the call" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make prepared stmt. match the call" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -352,8 +360,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/ht/print_holdings.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="299">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
