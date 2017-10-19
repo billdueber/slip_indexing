@@ -22,13 +22,13 @@ module HT
       if @htid_map.size > 1000
         @htid_map = empty_map
       end
-      PHDB_Query.where(volume_ids: Array(htid_seeds)).each do |r|
+      PHDB_Query.where(volume_id: Array(htid_seeds)).each do |r|
         @htid_map[r[:volume_id]] << r[:member_id]
       end
     end
 
     def [](htid)
-      seed(htid) unless @htid_map[htid]
+      seed(htid) if @htid_map[htid].empty?
       @htid_map[htid]
     end
 
