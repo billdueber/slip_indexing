@@ -1,0 +1,30 @@
+# Catalog fields whose values are just taken wholesale,
+# and the name of the LSS field to which they map
+
+# Direct mappings
+author_top: author_top
+author2: author2
+callnosort: callnosort
+callnumber: callnumber
+countryOfPubStr: countryOfPubStr
+edition: edition
+hlb3Delimited: hlb3Delimited
+hlb3Str: hlb3Str
+hlb3Str: hlb3Str
+language008_full: language008_full
+lccn: lccn
+mainauthor: mainauthor
+sdrnum: sdrnum
+serialTitle: serialTitle
+serialTitle_a: serialTitle_a
+serialTitle_ab: serialTitle_ab
+title_a: title_a
+title_ab: title_ab
+title_top: title_top
+titleSort: titleSort
+topicStr: topicStr
+
+# Name changes
+record_no: id
+Vtitle: title
+Vauthor: author
