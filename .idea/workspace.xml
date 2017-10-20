@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0918796f-551d-483c-8fdb-8354375fb362" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/slip_indexing.iml" afterPath="$PROJECT_DIR$/.idea/slip_indexing.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/indexers/setup.rb" afterPath="$PROJECT_DIR$/indexers/setup.rb" />
-      <change beforePath="$PROJECT_DIR$/writers/local_solr_json_updater.rb" afterPath="$PROJECT_DIR$/writers/local_solr_json_updater.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -328,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508448192552</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Set up infrastructure for reading and indexing">
+      <created>1508467953089</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1508467953090</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -366,6 +371,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Change env variable HT_DB to HT_DB_NAME" />
     <MESSAGE value="Turn HT::DB into a class" />
     <MESSAGE value="Fix singleton stuff" />
@@ -377,7 +383,9 @@
     <MESSAGE value="Actually prepare statement *correctly*" />
     <MESSAGE value="Stupid stupid stupid" />
     <MESSAGE value="Can't use prepared stmts with an array bound variable with JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can't use prepared stmts with an array bound variable with JDBC" />
+    <MESSAGE value="Set up infrastructure for reading and indexing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up infrastructure for reading and indexing" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
